@@ -1,0 +1,51 @@
+img{
+    width: 100%;
+    display: flex;
+}
+.post{
+    margin: auto;
+    height: 45%;
+    width: 30%;
+    box-sizing: border-box;
+    width: 700px;
+    background-color: white;
+    color: black;
+    padding: 0px;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.bookmark{
+    float: right;
+    padding: 16;
+    padding-right: 1%;
+}
+.user{
+    font-size: 50px;
+    padding-left: 1%;
+    padding-top: 1%;
+
+}
+body{
+    background-color: black;
+}
+.post-header {
+    display: flex;
+    align-items: center;
+    font-size: large;
+}
+.fa-ellipsis-vertical { 
+    margin-left: 75%;
+    font-size: 30px;
+}
+.post-body{
+    font-size: 30px;
+    padding-left: 1%;
+}
+.post-footer{
+    padding-left: 1%;
+}
+strong{
+    font-size: 20px;
+    padding-left: 4px;
+}
